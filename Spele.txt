@@ -40,3 +40,45 @@ Algoritms:
    - ja pozicija > FINISS → pozicija = FINISS
    - ja īpašais lauciņš → pielieto efektu
 3. Ja monetas >= 10 → uzvara, citādi zaudējums
+4. Testpiemēru kopa
+
+Tests 1: Kauliņa robežas  
+Darbība: izpildīt daudz metienus  
+Sagaidāms: rezultāts vienmēr ir starp 1 un 6
+
+Tests 2: Pozīcijas palielināšana  
+Sākums: pozicija = 0  
+Metiens: 4  
+Sagaidāms: pozicija = 4
+
+Tests 3: Nepārsniedz finišu  
+Sākums: pozicija = 28  
+Metiens: 6  
+Sagaidāms: pozicija = 30 (ne vairāk)
+
+Tests 4: Monētu lauciņš  
+Sākums: monetas = 3  
+Pozīcija nonāk monētu lauciņā  
+Sagaidāms: monetas = 5
+
+Tests 5: Soda lauciņš  
+Sākums: monetas = 2  
+Pozīcija nonāk soda lauciņā  
+Sagaidāms: monetas = 1
+
+Tests 6: Monētas nevar būt negatīvas  
+Sākums: monetas = 0  
+Sods  
+Sagaidāms: monetas = 0
+
+Tests 7: Bonusa lauciņš  
+Pozīcija nonāk bonusa lauciņā  
+Sagaidāms: tiek dots vēl viens metiens
+
+Tests 8: Uzvara  
+Finišā monetas = 10  
+Sagaidāms: uzvara
+
+Tests 9: Zaudējums  
+Finišā monetas = 6  
+Sagaidāms: zaudējums
