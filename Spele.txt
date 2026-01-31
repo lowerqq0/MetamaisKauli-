@@ -1,0 +1,4 @@
+Metamais kauliņš — “Dārgumu taka”
+
+1. Spēles apraksts
+Spēle “Dārgumu taka” ir neliela galda/datorspēles ideja vienam spēlētājam. Spēlētājs virzās pa lauciņiem no START līdz FINIŠAM, metot metamā kauliņa vērtību (1–6). Mērķis ir savākt vismaz 10 monētas un nonākt finišā. Dažos lauciņos notiek īpaši notikumi (monētas, sods, bonuss). Spēle beidzas, kad spēlētājs sasniedz FINIŠU.
