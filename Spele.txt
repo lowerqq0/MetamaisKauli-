@@ -22,3 +22,21 @@ Spēle “Dārgumu taka” ir neliela galda/datorspēles ideja vienam spēlētā
 1. Programmai jābūt saprotamai 11. klases līmenī.
 2. Darbībām jābūt skaidri izvadītām konsolē/logā.
 3. Kauliņa metienam jābūt godīgam (1–6).
+3. Struktūrskice
+
+Mainīgie:
+pozicija = 0
+monetas = 0
+metieni = 0
+FINISS = 30
+
+Algoritms:
+1. Parāda noteikumus
+2. Kamēr pozicija < FINISS:
+   - lietotājs met kauliņu
+   - ģenerē skaitli 1–6
+   - pozicija += skaitlis
+   - metieni += 1
+   - ja pozicija > FINISS → pozicija = FINISS
+   - ja īpašais lauciņš → pielieto efektu
+3. Ja monetas >= 10 → uzvara, citādi zaudējums
